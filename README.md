@@ -46,7 +46,7 @@ I study Computer Science at NUS. These days I'm building **PeatGuard** and contr
 ### <img src="assets/icons/rocket.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; Also building
 
 - **[Dry Season Waltz](https://github.com/tommyquak/GarugonsSpaceApps)**, NASA Space Apps 2026. A web map of Borneo's peatlands through **NISAR's first dry season**, with fire detections on top. [Open the map](https://tommyquak.github.io/GarugonsSpaceApps/)
-- **[KakiMETch](https://github.com/kakimetch/KakiMETch)**, a medical escort scheduling platform. I did the system design; the code is by the team (see Achievements).
+- **[KakiMETch](https://github.com/kakimetch/KakiMETch)**, a medical escort scheduling platform.
 
 ### <img src="assets/icons/trophy.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; Achievements
 
