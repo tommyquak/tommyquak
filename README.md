@@ -1,49 +1,71 @@
-<h1 align="center">Hi, I'm Tommy</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg" />
+  <img src="assets/header-dark.svg" width="100%" alt="Hi! I'm Tommy. I'm building PeatGuard, contributing to Jenkins, SPDX and ZAP, and playing CTFs." />
+</picture>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Computer+Science+%40+NUS;OSCP%2B+%7C+web+and+network+pentesting;Co-founder+%26+CTO+%40+PeatGuard;Satellite+radar+for+peatland+restoration" alt="Typing SVG" />
-</p>
+I study Computer Science at NUS. These days I'm building **PeatGuard** and contributing fixes to **open-source tools**, with some CTFs and pentesting on the side (OSCP+).
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/tommyquak"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:tommy@u.nus.edu"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/tommyquak)
 
----
+### <img src="assets/icons/globe.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; PeatGuard
 
-## About me
+<table>
+<tr>
+<td>
+<p><b>Satellite radar</b> tools for village-led peatland restoration.</p>
+<p>Behind it is an <b>InSAR pipeline on an HPC cluster</b> that has processed <b>93 ALOS-2 scenes</b> into <b>1,650 interferograms</b>, plus an operator web console.</p>
+<p>🏆 <b>4 awards in 2026</b>, including <b>2nd of 44 teams</b> at the PDMA global finals (see Achievements)</p>
+<p><a href="https://peatguard.com">peatguard.com</a> · <a href="https://github.com/tommyquak/peatguard">Public Showcase</a></p>
+</td>
+</tr>
+</table>
 
-- 🎓 Year 2 Computer Science student at NUS
-- 🔐 OSCP+ holder, mostly testing web apps and networks. I also play CTFs and do some bug bounty on Bugcrowd.
-- 🛰️ Co-founder and CTO of [PeatGuard](https://peatguard.com), a climate-tech startup that uses satellite radar to support village-led peatland restoration in Central Kalimantan
-- 📚 Still learning: right now that means Active Directory and red teaming
+### <img src="assets/icons/git-merge.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; OSS
 
-## 🏆 Achievements
+<table>
+<tr><th align="left">Project</th><th align="left">Change</th></tr>
+<tr>
+<td nowrap><img src="https://cdn.simpleicons.org/jenkins/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/jenkinsci/oic-auth-plugin">Jenkins</a></b><br><sub>OpenID Connect plugin</sub></td>
+<td>Restored the <code>AvatarProperty</code> descriptor that went missing after OIDC login. <b>Shipped in release 4.737.</b><br><a href="https://github.com/jenkinsci/oic-auth-plugin/pull/805">#805</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/jenkinsci/oic-auth-plugin/805?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /><br><br>Fixed a <b>NullPointerException at login</b> for realms configured with JCasC.<br><a href="https://github.com/jenkinsci/oic-auth-plugin/pull/808">#808</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/jenkinsci/oic-auth-plugin/808?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
+</tr>
+<tr>
+<td nowrap><img src="https://cdn.simpleicons.org/spdx/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/spdx">SPDX</a></b><br><sub>Java model and tools-java</sub></td>
+<td>Validation now checks that a document namespace is <b>absolute</b> and has <b>no <code>#</code></b>.<br><a href="https://github.com/spdx/spdx-java-model-2_X/pull/88">#88</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/spdx/spdx-java-model-2_X/88?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /><br><br><code>Verify</code> now checks the document SPDX ID in <b>JSON, YAML and XML</b> files, with tests.<br><a href="https://github.com/spdx/tools-java/pull/339">#339</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/spdx/tools-java/339?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
+</tr>
+<tr>
+<td nowrap><img src="https://cdn.simpleicons.org/zap/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/zaproxy/zap-extensions">ZAP</a></b><br><sub>SOAP add-on</sub></td>
+<td>Example alerts for the SOAP scan rules, covering <b>XML Injection</b> and <b>Action Spoofing</b>.<br><a href="https://github.com/zaproxy/zap-extensions/pull/7861">#7861</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/zaproxy/zap-extensions/7861?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
+</tr>
+<tr>
+<td nowrap><img src="https://cdn.simpleicons.org/apache/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/apache/hugegraph">Apache HugeGraph</a></b><br><sub>Graph database</sub></td>
+<td>Reported and fixed the <b>documented server build command</b>, which did not build the server modules.<br><a href="https://github.com/apache/hugegraph/pull/3485">#3485</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/apache/hugegraph/3485?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
+</tr>
+</table>
 
-| | Achievement | Project |
-| :-: | :-- | :-- |
-| 🥈 | **2nd Place (of 44 teams)**, PDMA Global Student Innovation Challenge 2026, global finals in Atlanta | PeatGuard |
-| 🥈 | **2nd Place (LOTR track)**, Singapore Defence Tech Hackathon 2026: led a five-person team on a C2 simulation | Hackathon build |
-| 🥈 | **First Runner-Up**, Hult Prize Singapore National Finals 2026 | PeatGuard |
-| 🥉 | **3rd Place**, Global Sustainability Challenge 2025-26 (Stanford Doerr School, Adaptation and Resilience) | PeatGuard |
-| 🚀 | **Stanford EcoGlobal Program 2026** accelerator, pitched at Capstone Day in San Francisco | PeatGuard |
-| 🚩 | **Top 8**, Singapore Cyber Conquest 2026 Finals (national CTF); 3rd in online qualifiers | CTF |
+### <img src="assets/icons/rocket.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; Also building
 
-## 🛠️ Tech stack
+- **[Dry Season Waltz](https://github.com/tommyquak/GarugonsSpaceApps)**, NASA Space Apps 2026. A web map of Borneo's peatlands through **NISAR's first dry season**, with fire detections on top. [Open the map](https://tommyquak.github.io/GarugonsSpaceApps/)
+- **[KakiMETch](https://github.com/kakimetch/KakiMETch)**, a medical escort scheduling platform. I did the system design; the code is by the team (see Achievements).
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,java,js,cs,html,css,django,fastapi,pytorch,docker,linux,git,bash,powershell&theme=dark&perline=10" alt="Tech stack" />
-  </a>
-</p>
+### <img src="assets/icons/trophy.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; Achievements
 
-**Security:** Burp Suite, Nmap, Metasploit, Active Directory &nbsp;|&nbsp; **Geospatial:** ISCE2, MintPy, ArcGIS, Slurm (HPC)
+<table>
+<tr><th align="left">Event</th><th align="left">Result</th></tr>
+<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://www.pdma.org/page/student-innovation-challenge">PDMA Global Student Innovation Challenge 2026</a></td><td><b>2nd of 44 teams</b> at the global finals in Atlanta (PeatGuard)</td></tr>
+<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://cde.nus.edu.sg/event-detail/singapore-defense-tech-hackathon/">Singapore Defence Tech Hackathon 2026</a></td><td><b>2nd place</b>, LOTR track. Led a five-person team on a counter-drone C2 simulation</td></tr>
+<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://luma.com/9jwh2595">Hult Prize Singapore Finals 2026</a></td><td><b>1st Runner-Up</b> (PeatGuard)</td></tr>
+<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://events.xmu.edu.my/seacicsic26/">SEA-CICSIC 2026</a></td><td><b>Top 5</b>, one of only 2 undergraduate teams in the top 5 (PeatGuard)</td></tr>
+<tr><td><img src="assets/icons/shield-check.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://www.csa.gov.sg/news-events/events/singapore-cyber-conquest-2026/">Singapore Cyber Conquest 2026</a>, national CTF</td><td><b>Top 8</b> in the national finals, <b>3rd</b> in online qualifiers</td></tr>
+<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://tigerlaunch.com/">TigerLaunch Singapore 2026</a></td><td><b>Regional Finalist</b> (Garudians)</td></tr>
+<tr><td><img src="assets/icons/star.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://sustainability.stanford.edu/global-sustainability-challenge">Stanford EcoGlobal accelerator (2026 Cohort)</a></td><td><b>Selected</b>, pitched to investors at Stanford University (PeatGuard)</td></tr>
+<tr><td><img src="assets/icons/star.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://luma.com/luvjt3nf">The Good Hack 2026</a></td><td>KakiMETch <b>selected for incubation</b> by GoodHub SEA, part of the Build for Good community by Open Government Products</td></tr>
+</table>
 
-## 🚀 Projects
+### <img src="assets/icons/tools.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; Tech Stack
 
-| Project | What it is | Tech |
-| :-- | :-- | :-: |
-| [**PeatGuard**](https://peatguard.com) 🛰️ | A radar pipeline on an HPC cluster (93 ALOS-2 scenes into 1,650 interferograms), an operator web console, and a React Native field app used at our Indonesia pilot. Current code is private; an older version is in [peatguard-v4](https://github.com/tommyquak/peatguard-v4). | `Python` • `ISCE2` • `MintPy` • `React Native` |
-| [**Dry Season Waltz**](https://github.com/tommyquak/GarugonsSpaceApps) 🔥 | NASA Space Apps Challenge 2026 ("Dancing with the SARs"). An open web map of Borneo's peatlands built on NISAR's first dry season, showing where the radar echo fell, alongside FIRMS fire detections. [Live map](https://tommyquak.github.io/GarugonsSpaceApps/) | `NISAR` • `FIRMS` • `Web map` |
-| **KakiMETch** 🏥 | A scheduling and matching platform for medical escort providers, selected for Open Government Products incubation after The Good Hack 2026. I worked on the system design. | `System design` |
-| **Fake-news and deepfake detection** (A*STAR I2R) 🔎 | A web tool exposing in-house detection models through REST endpoints, plus a fact-checking pipeline using Google Search and RoBERTa. | `Django` • `FastAPI` • `PyTorch` |
+<table>
+<tr><th nowrap align="left">Languages</th><td><img src="https://cdn.simpleicons.org/python/4493f8" width="18" height="18" align="absmiddle" alt="" />&nbsp;Python &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/openjdk/4493f8" width="18" height="18" align="absmiddle" alt="" />&nbsp;Java &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/gnubash/4493f8" width="18" height="18" align="absmiddle" alt="" />&nbsp;Bash &nbsp;&nbsp; <img src="assets/icons/terminal.svg" width="18" height="18" align="absmiddle" alt="" />&nbsp;PowerShell</td></tr>
+<tr><th nowrap align="left">Platforms</th><td><img src="https://cdn.simpleicons.org/linux/4493f8" width="18" height="18" align="absmiddle" alt="" />&nbsp;Linux &nbsp;&nbsp; <img src="https://cdn.simpleicons.org/docker/4493f8" width="18" height="18" align="absmiddle" alt="" />&nbsp;Docker</td></tr>
+<tr><th nowrap align="left">Radar</th><td><img src="assets/icons/broadcast.svg" width="18" height="18" align="absmiddle" alt="" />&nbsp;ISCE2 &nbsp;&nbsp; <img src="assets/icons/graph.svg" width="18" height="18" align="absmiddle" alt="" />&nbsp;MintPy</td></tr>
+</table>
