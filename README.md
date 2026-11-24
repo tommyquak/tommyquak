@@ -52,7 +52,7 @@ I study Computer Science at NUS. These days I'm building **PeatGuard** and contr
 
 <table>
 <tr><th align="left">Event</th><th align="left">Result</th></tr>
-<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://www.pdma.org/page/student-innovation-challenge">PDMA Global Student Innovation Challenge 2026</a></td><td><b>2nd of 44 teams</b> at the global finals in Atlanta (PeatGuard)</td></tr>
+<tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://www.pdma.org/page/student-innovation-challenge">PDMA Global Student Innovation Challenge 2026</a></td><td><b>2nd of 44 teams</b> at the global finals in Atlanta, USA (PeatGuard)</td></tr>
 <tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://cde.nus.edu.sg/event-detail/singapore-defense-tech-hackathon/">Singapore Defence Tech Hackathon 2026</a></td><td><b>2nd place</b>, LOTR track. Led a five-person team on a counter-drone C2 simulation (<a href="https://github.com/tommyquak/garudians-sdth-showcase">Public Showcase</a>)</td></tr>
 <tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://luma.com/9jwh2595">Hult Prize Singapore Finals 2026</a></td><td><b>1st Runner-Up</b> (PeatGuard)</td></tr>
 <tr><td><img src="assets/icons/trophy.svg" width="16" height="16" align="absmiddle" alt="" />&nbsp; <a href="https://events.xmu.edu.my/seacicsic26/">SEA-CICSIC 2026</a></td><td><b>Top 5</b>, one of only 2 undergraduate teams in the top 5 (PeatGuard)</td></tr>
