@@ -24,32 +24,18 @@ I study Computer Science at NUS. These days I'm building **PeatGuard** and contr
 ### <img src="assets/icons/git-merge.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; OSS
 
 <table>
-<tr><th align="left">Project</th><th align="left">Change</th></tr>
+<tr><th align="left">Project</th><th align="left">Highlight</th></tr>
 <tr>
 <td nowrap><img src="https://cdn.simpleicons.org/jenkins/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/jenkinsci/oic-auth-plugin">Jenkins</a></b><br><sub>OpenID Connect plugin</sub></td>
-<td>Restored the <code>AvatarProperty</code> descriptor that went missing after OIDC login. <b>Shipped in release 4.737.</b><br><a href="https://github.com/jenkinsci/oic-auth-plugin/pull/805">#805</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/jenkinsci/oic-auth-plugin/805?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /><br><br>Fixed a <b>NullPointerException at login</b> for realms configured with JCasC.<br><a href="https://github.com/jenkinsci/oic-auth-plugin/pull/808">#808</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/jenkinsci/oic-auth-plugin/808?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
+<td>Restored the <code>AvatarProperty</code> descriptor that went missing after OIDC login. <b>Shipped in release 4.737.</b></td>
 </tr>
 <tr>
 <td nowrap><img src="https://cdn.simpleicons.org/spdx/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/spdx">SPDX</a></b><br><sub>Java model and tools-java</sub></td>
-<td>Validation now checks that a document namespace is <b>absolute</b> and has <b>no <code>#</code></b>.<br><a href="https://github.com/spdx/spdx-java-model-2_X/pull/88">#88</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/spdx/spdx-java-model-2_X/88?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /><br><br><code>Verify</code> now checks the document SPDX ID in <b>JSON, YAML and XML</b> files, with tests.<br><a href="https://github.com/spdx/tools-java/pull/339">#339</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/spdx/tools-java/339?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /><br><br><code>Convert</code> now recognises the <code>.ttl</code> extension as <b>RDF Turtle</b>.<br><a href="https://github.com/spdx/tools-java/pull/343">#343</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/spdx/tools-java/343?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
-</tr>
-<tr>
-<td nowrap><img src="https://cdn.simpleicons.org/zap/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/zaproxy/zap-extensions">ZAP</a></b><br><sub>Scan rules</sub></td>
-<td>Example alerts for the SOAP scan rules, covering <b>XML Injection</b> and <b>Action Spoofing</b>.<br><a href="https://github.com/zaproxy/zap-extensions/pull/7861">#7861</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/zaproxy/zap-extensions/7861?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /><br><br>A new <b>Java deserialization</b> active scan rule that confirms the issue with a harmless out-of-band DNS callback.<br><a href="https://github.com/zaproxy/zap-extensions/pull/7941">#7941</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/zaproxy/zap-extensions/7941?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
-</tr>
-<tr>
-<td nowrap><img src="https://cdn.simpleicons.org/apache/4493f8" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/apache/hugegraph">Apache HugeGraph</a></b><br><sub>Graph database</sub></td>
-<td>Reported and fixed the <b>documented server build command</b>, which did not build the server modules.<br><a href="https://github.com/apache/hugegraph/pull/3485">#3485</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/apache/hugegraph/3485?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
-</tr>
-<tr>
-<td nowrap><img src="assets/icons/terminal.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/Gallopsled/pwntools">pwntools</a></b><br><sub>CTF and exploit-dev library</sub></td>
-<td>Fixed PLT emulation on architectures Unicorn can't emulate (such as <b>PowerPC</b>), which made every dynamically linked binary report a <b>PLT error</b>.<br><a href="https://github.com/Gallopsled/pwntools/pull/2817">#2817</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/Gallopsled/pwntools/2817?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
-</tr>
-<tr>
-<td nowrap><img src="assets/icons/shield-check.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; <b><a href="https://github.com/projectdiscovery/nuclei-templates">Nuclei</a></b><br><sub>Vulnerability templates</sub></td>
-<td>Template for <b>CVE-2025-21621</b>, a GeoServer reflected XSS, validated against vulnerable and patched versions.<br><a href="https://github.com/projectdiscovery/nuclei-templates/pull/18119">#18119</a>&nbsp; <img src="https://img.shields.io/github/pulls/detail/state/projectdiscovery/nuclei-templates/18119?style=flat-square&label=" height="18" align="absmiddle" alt="live pull request status" /></td>
+<td><b>3 merged PRs</b> tightening SPDX validation: <b>absolute</b> document namespaces, document SPDX IDs in <b>JSON, YAML and XML</b>, and <code>.ttl</code> support.</td>
 </tr>
 </table>
+
+Also contributing to <b>ZAP</b>, <b>Apache HugeGraph</b>, <b>pwntools</b> and <b>Nuclei</b> · <a href="https://github.com/search?q=author%3Atommyquak+is%3Apr+is%3Apublic+-user%3Atommyquak&type=pullrequests">All pull requests →</a>
 
 ### <img src="assets/icons/rocket.svg" width="20" height="20" align="absmiddle" alt="" />&nbsp; Also building
 
